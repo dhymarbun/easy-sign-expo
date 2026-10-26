@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Easy Sign",
+    "slug": "easy-sign-expo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "android": {
+      "package": "com.dhymarbun.easysign",
+      "permissions": ["READ_MEDIA_IMAGES"]
+    },
+    "plugins": ["expo-document-picker", "expo-image-picker"]
+  }
+}
