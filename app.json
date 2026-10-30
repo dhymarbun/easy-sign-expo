@@ -8,8 +8,14 @@
     "newArchEnabled": false,
     "android": {
       "package": "com.dhymarbun.easysign",
-      "permissions": ["READ_MEDIA_IMAGES"]
+      "permissions": [
+        "READ_MEDIA_IMAGES"
+      ]
     },
-    "plugins": ["expo-document-picker", "expo-image-picker"]
+    "plugins": [
+      "expo-document-picker",
+      "expo-image-picker",
+      "expo-secure-store"
+    ]
   }
 }
